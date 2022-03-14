@@ -5,23 +5,23 @@ namespace Versionhallinta {
 
         // Print sum of 2 number parameters
         static void Sum(double x, double y) {
-            //...
+            Console.WriteLine(x + y);
         }
 
         // Print reduction of 2 number parameters
         static void Reduct(double x, double y) {
-            //...
+            Console.WriteLine(x - y);
         }
 
         // Print division of 2 number parameters
         static void Divide(double x, double y) {
             // !!!REMEMBER: CAN'T DIVIDE WITH 0!!!
-            //...
+            Console.WriteLine(y == 0 ? "Inf" : x / y);
         }
 
         // Print multiplication of 2 number parameters
         static void Multiplication(double x, double y) {
-            //...
+            Console.WriteLine(x * y);
         }
 
         public static void Main(string[] args) {
@@ -49,7 +49,7 @@ namespace Versionhallinta {
                 case "+": Sum(x, y); break;
                 case "-": Reduct(x, y); break;
                 case "*": Multiplication(x, y); break;
-                case "/": Divide(x, y);  break;
+                case "/": Divide(x, y); break;
 
                 default: Console.WriteLine("Tuntematon operaattori!"); break;
             }
