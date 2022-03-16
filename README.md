@@ -6,3 +6,5 @@ Ryhmän jäsenet: Oskari Saarinen, Lari Liuhamo, Jani Myllymaa, Otto Lähde & Mi
 
 ### Kuvaus
 Nelilaskin komentorivi sovelluksena: Käyttäjä syöttää kaksi lukua ja valitsee laskutoimituksen (+, -, / tai *)
+
+Otto tunkee kjeh kjeh
