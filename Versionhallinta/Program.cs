@@ -24,6 +24,11 @@ namespace Versionhallinta {
             Console.WriteLine(x * y);
         }
 
+        // Test function commit
+        static void Test1() {
+            console.WriteLine("testi commit")
+        }
+
         public static void Main(string[] args) {
             Console.WriteLine("Versionhallinta - Ryhmä 4");
             Console.WriteLine("Nelilaskin\n");
